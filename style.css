@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Font h2";
+    src: url('STENCIL.TTF');
+}
+
+@font-face {
+    font-family: "Font h4";
+    src: url('segoeprb.ttf');
+}
+
+@font-face {
+    font-family: "Font p";
+    src: url('CALIFR.TTF');
+}
+
+@font-face {
+    font-family: "Font Nav";
+    src: url('AGENCYR.TTF');
+}
+
+@font-face {
+    font-family: "Font Judul";
+    src: url('HARLOWSI.TTF');
+}
+
+@font-face {
+    font-family: "Font th";
+    src: url('framd.ttf');
+}
+
+@font-face {
+    font-family: "Font td";
+    src: url('tt0001m_.ttf');
+}
+
+body {
+    background-color: #EDEBF0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+h2 {
+    color: black;
+    font-family: "Font h2";
+}
+
+h4 {
+    color: black;
+    font-family: "Font h4";
+    font-weight: bold;
+}
+
+.judul {
+    float: left;
+    width: 44%;
+    margin-left: 3%;
+}
+
+.judul a {
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 60px;
+    color: white;
+    font-family: "Font Judul";
+    font-size: 40px;
+}
+
+.logo {
+    width: 13%;
+    height: 13%;
+    margin-top: 4.4%;
+    margin-left: -80%;
+}
+
+nav {
+    font-family: "Font Nav";
+    background-color: #193446;
+    position: sticky;
+    margin-top: -20px;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav ul {
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+    line-height: 65px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    background: #193446;
+    padding: 0;
+    position: absolute;
+    top: 75%;
+    max-width: 260px;
+    width: auto;
+    list-style: none;
+    float: none;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#konten {
+    width: 75%;
+    float: left;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Font p";
+    text-align: justify;
+}
+
+button {
+    border: 0;
+    background: #ffffff;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+.sidebar {
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+.h2side,
+.h3side {
+    font-size: 15px;
+    font-family: "font h2";
+    box-shadow: 0px 2px black;
+    padding: 10px;
+}
+
+.sticky {
+    position: fixed;
+    float: right;
+    top: 12%;
+    margin-left: 73%;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table tr th {
+    font-family: "font th";
+}
+
+table tr td {
+    font-family: "font td";
+}
+
+footer {
+    padding: 20px;
+    color: WHITE;
+    background-color: #193446;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+.icon-gunung {
+    width: 70%;
+}
+
+.foto-awal {
+    width: 50%;
+}
+
+.info img {
+    width: 150px;
+    object-fit: cover;
+}
+
+.kontak img {
+    width: 35px;
+}
